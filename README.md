@@ -3,7 +3,7 @@
 # export
 Подумайте над следующим примером:
 
-$ a=linuxcareer.com \n
+$ a=linuxcareer.com //
 $ echo $a 
 linuxcareer.com 
 $ bash 
