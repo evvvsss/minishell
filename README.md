@@ -4,9 +4,7 @@
 Подумайте над следующим примером:
 
 $ a=linuxcareer.com
-
 $ echo $a
-
 linuxcareer.com
 $ bash
 $ echo $a
