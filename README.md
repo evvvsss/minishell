@@ -29,3 +29,12 @@ $
  # unset
  Сбрасывает значение переменной  
  
+# Разница между одинарными ' и двойными " кавычками
+Single quotes won't interpolate anything, but double quotes will. For example: variables, backticks, certain \ escapes, etc.
+
+Example:  
+
+$ echo "$(echo "upg")"  
+upg  
+$ echo '$(echo "upg")'  
+$(echo "upg")  
