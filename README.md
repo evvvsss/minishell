@@ -31,10 +31,12 @@ $
  
 # Разница между одинарными ' и двойными " кавычками
 Single quotes won't interpolate anything, but double quotes will. For example: variables, backticks, certain \ escapes, etc.
-
+Но очень важно в двойных кавычках поставить $, чтобы выполнилась команда))  
 Example:  
 
 $ echo "$(echo "upg")"  
 upg  
+$ echo "(echo "upg")"  
+(echo upg)  
 $ echo '$(echo "upg")'  
 $(echo "upg")  
