@@ -58,3 +58,10 @@ _: последняя предыдущая выполненная команда
 
 # Function: void rl_clear_history (void)
 Clear the history list by deleting all of the entries, in the same manner as the History library's clear_history() function. This differs from clear_history because it frees private data Readline saves in the history list.  
+# int fstat(int handle, struct stat *statbuf)
+Прототип: 
+stdio.h
+Описание: 
+Эта функция не определена стандартом ANSI С. Функция fstat() заполняет структуру, на кото­рую указывает statbuf, информацией о файле, связанном с дескриптором файла handle. Инфор­мация о содержимом stat может быть найдена в файле sys\stat.h.
+
+При успешном заполнении структуры типа stat возвращается 0. При ошибке возвращается —1 и errno устанавливается в EBADF.  
